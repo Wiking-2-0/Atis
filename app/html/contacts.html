@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Сервисный центр</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner-page">
+	<header class="header ">
+		//= parts/header.html
+	</header>
+	<main class="">
+		//= parts/breadcrumbs.html
+		<section class="contacts">
+			<div class="container">
+				<div class="page-head contacts-head">
+					<span class="page-head-title">Контакты</span>
+					<span class="page-head-subtitle">Свяжитесь с нами и мы починим Ваш ноутбук</span>
+				</div>
+				<div class="contacts-content">
+					<div class="contacts-content-left">
+						<div class="contacts-item">
+							<span class="contacts-item-title">Режим работы:</span>
+							<div class="contacts-item-descr worktime">
+								<p>Пн-Пт с 09:30 до 19:00 (без перерыва) Сб-Вс: выходной</p>
+							</div>
+						</div>
+						<div class="contacts-item">
+							<span class="contacts-item-title">Телефоны:</span>
+							<div class="contacts-item-descr phone">
+								<a href="tel:+380631043970" class="phone"><span>(063)</span> 104-39-70</a>
+							<a href="tel:+380953200729" class="phone"><span>(095)</span> 320-07-29</a>
+							</div>
+						</div>
+						<div class="contacts-item">
+							<span class="contacts-item-title">E-mail:</span>
+							<div class="contacts-item-descr email">
+								<a href="mailto:info@atis.com.ua">info@atis.com.ua</a>
+							</div>
+						</div>
+						<div class="contacts-item">
+							<span class="contacts-item-title">Полный адрес:</span>
+							<div class="contacts-item-descr place">
+								<p>ул. Героев Небесной Сотни 4 (бывшая площадь Руднева), офис №7.</p>
+							</div>
+						</div>
+					</div>
+					<div class="contacts-content-right">
+						<form class="contacts-form" method="POST">
+							<span class="contacts-form-title">Отправьте нам сообщение</span>
+							<input type="text" name="name" placeholder="Имя">
+							<input type="phone" name="phone" placeholder="Телефон">
+							<select name="problem-type">
+								<option value="">Неисправность</option>
+								<option value="">Чистка ноутбука</option>
+								<option value="">Чистка компьютера</option>
+								<option value="">Диагностика ноутбука</option>
+								<option value="">Диагностика компьютера</option>
+								<option value="">Замена комплектующих</option>
+								<option value="">Сборка компьютера</option>
+								<option value="">Переустановка OС</option>
+								<option value="">Установка драйверов</option>
+								<option value="">Настройка ПО</option>
+								<option value="">Установка программ</option>
+								<option value="">Восстановление данных</option>
+								<option value="">Другое</option>
+							</select>
+							<textarea name="comment" placeholder="Ваше сообщение..."></textarea>
+							<button class="site-btn">Отправить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contacts-map">
+			<div id="map">
+				<img src="../img/contacts-map.jpg" alt="">
+			</div>
+		</section>
+	</main>
+	//= parts/footer.html
+	//= parts/popup.html
+	<script src="js/libs.min.js" type="text/javascript"></script>
+	<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>

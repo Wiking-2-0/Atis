@@ -1,0 +1,44 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px"
+	 height="55.969px" viewBox="0 0 60 55.969" enable-background="new 0 0 60 55.969" xml:space="preserve">
+<g id="Forma_1_1_" enable-background="new    ">
+</g>
+<g id="_x31_.svg_1_" enable-background="new    ">
+</g>
+<g id="_x32_.svg_1_" enable-background="new    ">
+</g>
+<g id="arrow.svg_1_" enable-background="new    ">
+</g>
+<g id="_x33_.svg_1_" enable-background="new    ">
+</g>
+<g id="_x34_.svg_1_" enable-background="new    ">
+</g>
+<g id="_x35_.svg_1_" enable-background="new    ">
+</g>
+<g id="lcd.svg_1_" enable-background="new    ">
+	<g id="lcd.svg">
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="54.9697" y1="-2.0732" x2="5.0307" y2="47.8658">
+				<stop  offset="0" style="stop-color:#1F387D"/>
+				<stop  offset="1" style="stop-color:#4179D3"/>
+			</linearGradient>
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" d="M55,0H5C2.242,0,0,2.282,0,5.088v35.616
+				c0,2.807,2.242,5.089,5,5.089h17.503c-0.054,2.033-0.437,5.283-1.862,6.81c-0.523,0.562-1.125,0.822-1.891,0.822
+				c-0.691,0-1.25,0.568-1.25,1.271s0.559,1.272,1.25,1.272h22.5c0.69,0,1.25-0.569,1.25-1.272s-0.56-1.271-1.25-1.271
+				c-0.766,0-1.367-0.261-1.891-0.822c-1.426-1.526-1.809-4.776-1.862-6.81H55c2.758,0,5-2.282,5-5.089V5.088
+				C60,2.282,57.758,0,55,0z M23.171,53.425c1.51-2.355,1.802-5.747,1.84-7.633h9.979c0.038,1.886,0.329,5.277,1.839,7.633H23.171z
+				 M57.5,40.704c0,1.402-1.122,2.544-2.5,2.544H5c-1.378,0-2.5-1.142-2.5-2.544v-5.088h55V40.704z M57.5,33.072h-55V14.908
+				l5.616-1.905l4.516,9.19c0.279,0.566,0.924,0.842,1.514,0.637l6.767-2.294l4.454,4.531c0.244,0.249,0.563,0.372,0.884,0.372
+				c0.319,0,0.64-0.123,0.884-0.372c0.488-0.497,0.488-1.302,0-1.799l-5-5.088c-0.336-0.339-0.828-0.463-1.279-0.307l-6.471,2.194
+				l-4.516-9.189c-0.278-0.566-0.926-0.839-1.514-0.638L2.5,12.228v-7.14c0-1.402,1.122-2.544,2.5-2.544h50
+				c1.378,0,2.5,1.142,2.5,2.544V33.072z M30,41.977c1.381,0,2.5-1.14,2.5-2.544c0-1.405-1.119-2.545-2.5-2.545s-2.5,1.14-2.5,2.545
+				C27.5,40.837,28.619,41.977,30,41.977z"/>
+		</g>
+	</g>
+</g>
+<g id="clean.svg_1_" enable-background="new    ">
+</g>
+<g id="hdd.svg_1_" enable-background="new    ">
+</g>
+<g id="repair.svg_1_" enable-background="new    ">
+</g>
+</svg>

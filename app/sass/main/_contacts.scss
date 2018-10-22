@@ -1,0 +1,145 @@
+.contacts{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	&-head{
+		background-image: url('../img/contacts-head.jpg');
+	}
+	&-content{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		padding-top: 60px;
+		padding-bottom: 40px;
+		&-left{
+			width: 50%;
+			padding-right: 30px;
+		}
+		&-right{
+			width: 50%;
+		}
+	}
+	&-item{
+		margin-bottom: 15px;
+		&-title{
+			display: block;
+			margin-bottom: 10px;
+			font-size: 24px;
+			font-weight: 600;
+			color: #3e3e3e;
+		}
+		&-descr{
+			position: relative;
+			padding-left: 40px;
+			&:before{
+				content: '';
+				position: absolute;
+				left: 0;
+				top: 6px;
+				width: 20px;
+				height: 20px;
+				background-image: url(../img/icons/contacts-phone.svg);
+				background-repeat: no-repeat;
+				-webkit-background-size: contain;
+				background-size: contain;
+			}
+			&.worktime{
+				&:before{
+					background-image: url(../img/icons/contacts-phone.svg);
+				}
+			}
+			&.email{
+				&:before{
+					background-image: url(../img/icons/contacts-email.svg);
+				}
+				a{
+					font-weight: 400;
+				}
+			}
+			&.place{
+				&:before{
+					background-image: url(../img/icons/contacts-place.svg);
+				}
+			}
+			a{
+				display: block;
+				margin-right: 10px;
+				color: #3e3e3e;
+				font-size: 20px;
+				font-weight: 500;
+				line-height: 1.6;
+				&:hover{
+					color: $active-color;
+				}
+				span{
+					font-weight: 300;
+				}
+			}
+			p{
+				font-size: 20px;
+				line-height: 28px;
+				font-weight: 400;
+			}
+		}
+	}
+	&-form{
+		&-title{
+			display: block;
+			margin-bottom: 25px;
+			font-size: 24px;
+			font-weight: 600;
+		}
+		input,textarea,select{
+			width: 100%;
+			height: 50px;
+			padding-left: 15px;
+			margin-bottom: 25px;
+			border: 1px solid #e3e3e3;
+			border-radius: 6px;
+			font-size: 16px;
+			color: #000;
+			&::-webkit-input-placeholder {color:#000;}
+			&::-moz-placeholder          {color:#000;}/* Firefox 19+ */
+			&:-moz-placeholder           {color:#000;}/* Firefox 18- */
+			&:-ms-input-placeholder      {color:#000;}
+			&:focus,&:active{
+				outline: none;
+			}
+		}
+		textarea{
+			height: 110px;
+			resize: none;
+			overflow-y: auto;
+			padding-top: 10px;
+		}
+	}
+	&-map{
+		height: 450px;
+		#map{
+			width: 100%;
+			height: 100%;
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+	@media only screen and (max-width: 768px) {
+		&-content{
+			&-left{
+				width: 100%;
+				margin-bottom: 20px;
+			}
+			&-right{
+				width: 100%;
+			}
+		}
+	}
+}

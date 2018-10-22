@@ -1,0 +1,53 @@
+<div class="overlay"></div>
+<div class="popup popup-master">
+	<span class="popup-close"></span>
+	<div class="contacts-right">
+		<form class="popup-form" method="POST">
+			<span class="center-banner-form-title">Форма вызова мастера</span>
+			<input pattern="[A-Za-zА-Яа-яёЁ]{2,16}\D[^0-9]" onKeyUp="if(/[^a-zA-Zа-яА-ЯёЁ .]/i.test(this.value)){this.value=this.value.slice(0,-1);}" type="text" name="name" placeholder="Имя">
+			<input pattern="[0]{1}[0-9]{6,12}" onKeyUp="if(/[a-zA-Zа-яА-ЯёЁ`~!@#№;$%:^?&-+_=* .]/i.test(this.value)){this.value=this.value.slice(0,-1);}" type="tel" name="phone" placeholder="Телефон">
+			<select name="problem-type">
+				<option value="">Неисправность</option>
+				<option value="">Чистка ноутбука</option>
+				<option value="">Чистка компьютера</option>
+				<option value="">Диагностика ноутбука</option>
+				<option value="">Диагностика компьютера</option>
+				<option value="">Замена комплектующих</option>
+				<option value="">Сборка компьютера</option>
+				<option value="">Переустановка OС</option>
+				<option value="">Установка драйверов</option>
+				<option value="">Настройка ПО</option>
+				<option value="">Установка программ</option>
+				<option value="">Восстановление данных</option>
+				<option value="">Другое</option>
+			</select>
+			<button class="site-btn">Отправить заявку</button>
+		</form>
+	</div>
+</div>
+<div class="popup popup-feedback">
+	<span class="popup-close"></span>
+	<div class="contacts-right">
+		<form class="popup-form" method="POST">
+			<span class="center-banner-form-title">Заказать обратный звонок</span>
+			<input type="text" name="name" placeholder="Имя">
+			<input type="phone" name="phone" placeholder="Телефон">
+			<button class="site-btn">Заказать</button>
+		</form>
+	</div>
+</div>
+<div class="popup popup-review">
+	<span class="popup-close"></span>
+	<div class="contacts-right">
+		<form class="popup-form" method="POST">
+			<span class="popup-form-title">Оставьте отзыв о нас</span>
+			<input type="text" name="name" placeholder="Имя">
+			<input type="phone" name="phone" placeholder="Телефон">
+			<textarea name="comment" placeholder="Ваш отзыв"></textarea>
+			<button class="site-btn">Отправить</button>
+		</form>
+	</div>
+</div>
+<!-- 			<input type="text" placeholder="E-mail (не обязательно)" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+			<textarea name="comment" placeholder="Комментарий (не обязательно)"></textarea>
+			<button class="more-info">Отправить</button> -->

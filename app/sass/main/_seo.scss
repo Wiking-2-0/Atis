@@ -1,0 +1,100 @@
+.seo{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	overflow-y: hidden;
+	&:after{
+		content: '';
+		position: absolute;
+		right: 20%;
+		bottom: -60px;
+		width: 40vw;
+		height: 40vw;
+		opacity: .5;
+		border-radius: 50%;
+		background: -moz-linear-gradient(30deg, rgba(229,240,253,1) 0%, rgba(0,128,128,0) 100%); /* ff3.6+ */
+		background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(229,240,253,1)), color-stop(100%, rgba(0,128,128,0))); /* safari4+,chrome */
+		background: -webkit-linear-gradient(30deg, rgba(229,240,253,1) 0%, rgba(0,128,128,0) 100%); /* safari5.1+,chrome10+ */
+		background: -o-linear-gradient(30deg, rgba(229,240,253,1) 0%, rgba(0,128,128,0) 100%); /* opera 11.10+ */
+		background: -ms-linear-gradient(30deg, rgba(229,240,253,1) 0%, rgba(0,128,128,0) 100%); /* ie10+ */
+		background: linear-gradient(60deg, rgba(229,240,253,1) 0%, rgba(0,128,128,0) 100%); /* w3c */
+		-webkit-background-size: contain;
+		 background-size: contain; 
+		z-index: -2;
+		}
+	.container{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	&-content{
+		width: 50%;
+		&-descr{
+			height: 350px;
+			overflow-y: auto;
+		}
+	}
+	&-sponsors{
+		width: 50%;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: auto;
+		list-style: none;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-align-items: center;
+		align-items: center;
+		&-item{
+			height: 30px;
+			margin-left: 15px;
+			margin-right: 15px;
+			margin-bottom: 40px;
+			img{
+				height: 100%;
+				object-fit: contain;
+				/*filter: grayscale(100%);*/
+				filter: contrast(0%);
+			}
+			&:first-child{
+				/*height: 50px;*/
+			}
+			&:nth-last-child(2){
+				height: 35px;
+				img{
+					filter: grayscale(100%);
+				}
+			}
+			&:hover{
+				img{
+					filter: none;
+				}
+			}
+		}
+	}
+	@media only screen and (max-width: 768px) {
+		&-content{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		&-sponsors{
+			width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
